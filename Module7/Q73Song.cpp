@@ -8,7 +8,7 @@ int songId = 0;
 int main(){
     cout << "Enter rating for top song: " << endl;
     cin >> numIn;
-    for (numIn >= 0; numIn + 0;) {
+    for (numIn >= 0;;) {
         if (numIn >= 0){
             //cout << "Trigger" << endl;
             ratingTotal += numIn;
