@@ -3,13 +3,14 @@
 using namespace std;
 
 class Sandwich{
-    float price;
-    vector<string> ingredients;
-    string breadType;
-    vector<string> condiments;
-    float calories;
-    int percentLeft;
-    bool eaten;
+    private:
+        float price;
+        vector<string> ingredients;
+        string breadType;
+        vector<string> condiments;
+        float calories;
+        int percentLeft;
+        bool eaten;
 
     public:
         Sandwich(float pri, vector<string> ing, string bread, vector<string> cond){
@@ -51,6 +52,6 @@ class Sandwich{
 };
 
 int main(){
-
+    
     return 0;
 }
